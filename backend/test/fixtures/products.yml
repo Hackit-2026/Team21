@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  store: one
+  name: MyString
+  image_url: MyString
+  original_price: 1
+  discount_price: 1
+  quantity: 1
+  category: MyString
+  sale_end_at: 2026-07-31 20:02:14
+  status: 1
+
+two:
+  store: two
+  name: MyString
+  image_url: MyString
+  original_price: 1
+  discount_price: 1
+  quantity: 1
+  category: MyString
+  sale_end_at: 2026-07-31 20:02:14
+  status: 1

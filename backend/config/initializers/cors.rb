@@ -14,3 +14,13 @@
 #       methods: [:get, :post, :put, :patch, :delete, :options, :head]
 #   end
 # end
+Rails.application.config.middleware.insert_before 0, Rack::Cors do
+  allow do
+    # 開発環境のNext.js（3000番や3001番ポートなど）からのアクセスをすべて許可
+    origins "*"
+
+    resource "*",
+      headers: :any,
+      methods: [:get, :post, :put, :patch, :delete, :options, :head]
+  end
+end
