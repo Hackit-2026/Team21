@@ -4,6 +4,9 @@ https://github.com/gnubow/cirkit-b
 # :ショッピングカート: スーパー売れ残り商品通知アプリ (MVP) - バックエンド API & 設計仕様書
 
 スーパー店舗の売れ残り（値引き）商品を近隣消費者にリアルタイム通知し、フードロス削減を目指すWebアプリケーションのバックエンド（Ruby on Rails API）リポジトリです。
+<img width="944" height="411" alt="image" src="https://github.com/user-attachments/assets/fa110fdd-afa1-4f47-aa0a-300525772fdb" />
+<img width="944" height="413" alt="image" src="https://github.com/user-attachments/assets/dddce51a-5729-40bd-8b0a-608baa629e4e" />
+
 
 ---
 
