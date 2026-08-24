@@ -1,12 +1,14 @@
-作成したリポジトリはこちらになります
-https://github.com/gnubow/cirkit-b
+# Hackit 2026 Team 21
 
+> [!IMPORTANT]
+> このリポジトリは Hackit 2026 の公式アーカイブ・入口です。  
+> 実際の開発に使用されたリポジトリはこちらです：  
+> **https://github.com/gnubow/cirkit-b**
+
+---
 # :ショッピングカート: スーパー売れ残り商品通知アプリ (MVP) - バックエンド API & 設計仕様書
 
 スーパー店舗の売れ残り（値引き）商品を近隣消費者にリアルタイム通知し、フードロス削減を目指すWebアプリケーションのバックエンド（Ruby on Rails API）リポジトリです。
-<img width="944" height="411" alt="image" src="https://github.com/user-attachments/assets/fa110fdd-afa1-4f47-aa0a-300525772fdb" />
-<img width="944" height="413" alt="image" src="https://github.com/user-attachments/assets/dddce51a-5729-40bd-8b0a-608baa629e4e" />
-
 
 ---
 
@@ -336,4 +338,4 @@ frontend/
 
 ## 既知の制約
 
-- 画像アップロードは実際のファイルストレージではなく、Base64データU
+- 画像アップロードは実際のファイルストレージではなく、Base64データURLとして `image_url` カラムにそのまま保存している(バックエンドにActive Storage等が未実装のための暫定対応)
